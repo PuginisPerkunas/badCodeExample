@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="primaryColor">#212121</color>
+    <color name="primaryLightColor">#484848</color>
+    <color name="primaryDarkColor">#000000</color>
+    <color name="secondaryColor">#0277bd</color>
+    <color name="secondaryLightColor">#58a5f0</color>
+    <color name="secondaryDarkColor">#004c8c</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#ffffff</color>
+
+
+        <item name="color1" type="color">#55efc4</item>
+        <item name="color2" type="color">#81ecec</item>
+        <item name="color3" type="color">#74b9ff</item>
+        <item name="color4" type="color">#a29bfe</item>
+        <item name="color5" type="color">#a29bfe</item>
+        <item name="color6" type="color">#00b894</item>
+        <item name="color7" type="color">#00cec9</item>
+        <item name="color8" type="color">#0984e3</item>
+        <item name="color9" type="color">#6c5ce7</item>
+        <item name="color10" type="color">#ffeaa7</item>
+        <item name="color11" type="color">#ff7675</item>
+        <item name="color12" type="color">#fd79a8</item>
+        <item name="color13" type="color">#fdcb6e</item>
+        <item name="color14" type="color">#e17055</item>
+        <item name="color15" type="color">#d63031</item>
+        <item name="color16" type="color">#e84393</item>
+        <item name="color17" type="color">#636e72</item>
+
+        <integer-array name="colorArr">
+            <item>@color/color1</item>
+            <item>@color/color2</item>
+            <item>@color/color3</item>
+            <item>@color/color4</item>
+            <item>@color/color5</item>
+            <item>@color/color6</item>
+            <item>@color/color7</item>
+            <item>@color/color8</item>
+            <item>@color/color9</item>
+            <item>@color/color10</item>
+            <item>@color/color11</item>
+            <item>@color/color12</item>
+            <item>@color/color13</item>
+            <item>@color/color14</item>
+            <item>@color/color15</item>
+            <item>@color/color16</item>
+            <item>@color/color17</item>
+        </integer-array>
+
+
+</resources>

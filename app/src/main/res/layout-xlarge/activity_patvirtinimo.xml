@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryDarkColor"
+    android:id="@+id/relativeLayoutMain"
+    tools:context=".patvirtinimoAct">
+
+    <ImageView
+        android:id="@+id/skinImage"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        app:srcCompat="@drawable/nothing"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/skinNameTXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/skinImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="32dp"
+        android:textColor="@color/primaryDarkColor"
+        android:textAlignment="center"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/downloadFinal"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/skinNameTXT"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/jua"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="26dp"
+        android:textColor="@android:color/white"
+        android:text="Download" />
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="450dp"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/jua"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/downloadFinal"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="9dp"
+        android:text="Back" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>
